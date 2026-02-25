@@ -1,0 +1,13 @@
+{
+  "frontend/src/index.css": "Global styles with warm vibrant OKLCH color palette (rich oranges, deep teals, warm creams), Google Fonts import for Playfair Display and Inter, smooth scroll, card hover utilities, and text gradient helpers.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with brand color tokens (orange, teal, amber, cream), Playfair Display/Inter font families, custom border radii, warm shadow utilities, and fade-up/fade-in keyframe animations.",
+  "frontend/src/hooks/useQueries.ts": "React Query mutation hook `useSubmitInquiry` that calls the backend `submitInquiry` method with typed `InquiryFormData` and invalidates the inquiries query cache on success.",
+  "frontend/src/components/Navbar.tsx": "Sticky responsive navigation bar with SubliCraft Studio branding, smooth-scroll nav links, a prominent \"Get a Quote\" CTA button, and a mobile hamburger menu with animated open/close.",
+  "frontend/src/components/HeroSection.tsx": "Full-viewport hero section with hero banner background image, gradient overlay, animated headline with warm text gradient, tagline, dual CTA buttons, and key stats row.",
+  "frontend/src/components/ProductsSection.tsx": "Responsive product grid (1→2→3 columns) displaying 5 sublimation product category cards with generated images, badges, descriptions, and an \"Order Now\" link plus a CTA card.",
+  "frontend/src/components/AboutSection.tsx": "Two-column about section with the about-section image, business description, feature highlights list, and a 4-card services grid with icon hover effects.",
+  "frontend/src/components/TestimonialsSection.tsx": "Testimonials section with 4 customer review cards (stars, quotes, avatars) and a teal gradient \"Why Choose Us\" trust badges panel with 4 badges.",
+  "frontend/src/components/ContactSection.tsx": "Contact/order inquiry section with a sidebar showing contact info, quick turnaround note, and an order tips card, plus a validated react-hook-form form (name, email, phone, product dropdown with corrected sublimation product categories, message) that submits to the backend and shows a success state with a \"Request a Quote\" heading and helper copy.",
+  "frontend/src/components/Footer.tsx": "Multi-column footer with SubliCraft Studio branding, social media icons, quick links, product links, dynamic copyright year, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/App.tsx": "Root app component composing all page sections (Navbar, Hero, Products, About, Testimonials, Contact, Footer) in a single-page layout."
+}

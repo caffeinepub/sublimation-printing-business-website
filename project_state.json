@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "A beautiful, attractive business website for a sublimation printing company selling products like mugs, frames, and other sublimation items.",
+  "architectural_notes": [
+    "Static business website with attractive UI for a sublimation printing company"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-full-page-hero-section-with-a-bold-headline-a-short-tagline-about-sublimation-printing-a-call-to-action-button-e-g-explore-our-products-and-a-visually-striking-background-using-the-generated-hero-banner-image",
+      "title": "Create a full-page hero section with a bold headline, a short tagline about sublimation printing, a call-to-action button (e.g., 'Explore Our Products'), and a visually striking background using the generated hero banner image.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-products-gallery-section-that-displays-sublimation-product-categories-mugs-photo-frames-t-shirts-cushions-and-keychains-each-category-card-should-show-the-generated-product-image-category-name-and-a-short-description",
+      "title": "Build a Products / Gallery section that displays sublimation product categories: Mugs, Photo Frames, T-Shirts, Cushions, and Keychains. Each category card should show the generated product image, category name, and a short description.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-about-us-services-section-that-describes-the-business-highlights-the-sublimation-printing-process-and-lists-key-services-offered-custom-orders-bulk-printing-fast-delivery",
+      "title": "Add an About Us / Services section that describes the business, highlights the sublimation printing process, and lists key services offered (custom orders, bulk printing, fast delivery).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-order-inquiry-section-with-a-form-containing-fields-name-email-phone-number-product-interest-dropdown-with-product-categories-and-message-on-submission-store-the-inquiry-in-the-backend-and-show-a-success-confirmation-to-the-user",
+      "title": "Create a Contact / Order Inquiry section with a form containing fields: Name, Email, Phone Number, Product Interest (dropdown with product categories), and Message. On submission, store the inquiry in the backend and show a success confirmation to the user.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-sticky-navigation-bar-with-the-business-logo-name-navigation-links-home-products-about-contact-and-a-get-a-quote-cta-button-that-scrolls-to-the-contact-section",
+      "title": "Implement a sticky navigation bar with the business logo/name, navigation links (Home, Products, About, Contact), and a 'Get a Quote' CTA button that scrolls to the Contact section.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-testimonials-why-choose-us-section-with-3-4-placeholder-customer-testimonial-cards-and-a-row-of-trust-badges-e-g-premium-quality-fast-delivery-custom-designs-100-satisfaction",
+      "title": "Add a Testimonials / Why Choose Us section with 3–4 placeholder customer testimonial cards and a row of trust badges (e.g., 'Premium Quality', 'Fast Delivery', 'Custom Designs', '100% Satisfaction').",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-footer-with-the-business-name-a-short-tagline-navigation-links-social-media-icon-placeholders-and-a-copyright-notice",
+      "title": "Add a footer with the business name, a short tagline, navigation links, social media icon placeholders, and a copyright notice.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-warm-vibrant-visual-theme-throughout-the-website-using-rich-oranges-deep-teals-and-warm-creams-as-the-color-palette-paired-with-bold-modern-typography-use-smooth-scroll-animations-hover-effects-on-cards-and-a-clean-energetic-layout-that-communicates-creativity-and-craftsmanship",
+      "title": "Apply a warm, vibrant visual theme throughout the website using rich oranges, deep teals, and warm creams as the color palette, paired with bold modern typography. Use smooth scroll animations, hover effects on cards, and a clean, energetic layout that communicates creativity and craftsmanship.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-images-hero-banner-product-category-images-about-section-image-as-static-assets-from-frontend-public-assets-generated-and-reference-them-in-the-appropriate-sections",
+      "title": "Render all generated images (hero banner, product category images, about section image) as static assets from frontend/public/assets/generated and reference them in the appropriate sections.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Homepage with hero section showcasing sublimation products",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Products/gallery section displaying mugs, frames, and other sublimation items",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "About/services section describing the business",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Contact section with inquiry form or contact details",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Sublimation Printing Business Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

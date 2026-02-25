@@ -1,0 +1,20 @@
+{
+  "kind": "build_request",
+  "title": "Add online contact/order form page",
+  "projectName": "SubliCraft Studio",
+  "priority": "normal",
+  "requirements": [],
+  "constraints": [
+    "Do not modify files listed in frontend.immutablePaths",
+    "All Motoko logic must remain in the single main actor (backend/main.mo)"
+  ],
+  "nonGoals": [
+    "Adding new product categories beyond the existing five",
+    "Implementing payment processing",
+    "User authentication or login flows"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko actor defining an inquiry submission system with `submitInquiry` and `getInquiry` methods, storing typed `Inquiry` records (name, email, phone, product category, message) in a list.",
+  "feature_evidence.json": "Empty feature evidence report JSON file with no features recorded.",
+  "frontend-file-summaries.txt": "JSON document containing one-sentence summaries of each frontend source file, covering components, hooks, styles, and config.",
+  "frontend/index.css": "Tailwind CSS entry file defining light and dark mode CSS custom properties (OKLCH color tokens) for backgrounds, foregrounds, borders, charts, and sidebar theming.",
+  "frontend/index.html": "Minimal HTML shell for the React app, mounting the root div and loading the TypeScript entry point via a module script.",
+  "frontend/src/App.tsx": "Root React component that composes all page sections (Navbar, Hero, Products, About, Testimonials, Contact, Footer) into a single-page layout.",
+  "frontend/src/components/AboutSection.tsx": "Two-column about section featuring a workspace image, business description, feature highlights list, and a four-card services grid with icons.",
+  "frontend/src/components/ContactSection.tsx": "Contact/inquiry section with a sidebar of contact info and a react-hook-form form that maps sublimation product options to backend ProductCategory enums and submits via the useSubmitInquiry mutation.",
+  "frontend/src/components/Footer.tsx": "Multi-column footer with SubliCraft Studio branding, social media icon links, smooth-scroll quick links, product links, dynamic copyright year, and a caffeine.ai attribution.",
+  "frontend/src/components/HeroSection.tsx": "Full-viewport hero section with a background image, gradient overlay, animated headline with warm text gradient, dual CTA buttons, and a stats row showing clients, products made, and rating.",
+  "frontend/src/components/Navbar.tsx": "Responsive fixed navbar with smooth-scroll navigation links, a 'Get a Quote' CTA button, and a mobile hamburger menu that becomes opaque on scroll.",
+  "frontend/src/components/ProductsSection.tsx": "Displays a grid of five sublimation products (mugs, frames, t-shirts, cushions, keychains) with images, badges, descriptions, and a contact CTA button.",
+  "frontend/src/components/TestimonialsSection.tsx": "Renders a four-column customer testimonials grid with star ratings and author avatars, plus a row of four trust-badge highlights below.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an ICP backend actor (anonymous or authenticated) using React Query, and invalidates dependent queries when the identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an InternetIdentityProvider and useInternetIdentity hook for managing DFINITY AuthClient login, logout, and identity state with status tracking.",
+  "frontend/src/hooks/useQueries.ts": "Exports a useSubmitInquiry mutation hook that calls the backend actor's submitInquiry method and invalidates the inquiries query on success.",
+  "frontend/src/index.css": "Global stylesheet importing Google Fonts and defining Tailwind base styles, a warm OKLCH color palette with dark mode variants, and utility classes for gradients and card hover effects.",
+  "frontend/src/main.tsx": "Application entry point that mounts the React app wrapped in QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration for the frontend, defining dark mode, content paths, custom fonts (Playfair Display, Inter), an extended color palette using oklch CSS variables and brand tokens, custom border radii, box shadows, and keyframe animations.",
+  "project_state.json": "Tracks the current state of the sublimation printing business website project, listing existing features (hero, products gallery, about, contact form, navbar, testimonials, footer), architectural notes, and versioning metadata."
+}
